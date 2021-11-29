@@ -51,6 +51,22 @@ body {
   color: #fff;
   height: 87vh;
 }
+#animate {
+       
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  10%   {color:rgba(255, 115, 0, 0.233); left:0px; top:0px;}
+  90%  {color:yellow; left:200px; top:0px;}
+
+}
 .youtube {
   padding-top: 35%;
   padding-left: 30%;
@@ -91,6 +107,10 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+@media screen and (max-width: 800px) {
+  #col1 {
+    font-size: 3px;
+  }
 #sec2 #col2{
   background-color: rgb(130, 0, 113);
   text-align: center;
