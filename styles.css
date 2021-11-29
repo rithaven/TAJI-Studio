@@ -5,6 +5,7 @@ body {
   font-family: "Cardo", serif;
   font-family: "Rubik", sans-serif;
   background-color: rgb(19, 17, 17);
+  overflow-x:hidden;
 }
 
 .topnav {
@@ -107,15 +108,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
   #col1 {
     font-size: 10px;
   }
-}
-@media screen and (max-width: 1007px) {
-  #col1 {
-    font-size: 10px;
-  }
+
 }
 #sec2 #col2{
   background-color: rgb(130, 0, 113);
