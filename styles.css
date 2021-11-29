@@ -112,7 +112,7 @@ body {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1007px) {
   #col1 {
     font-size: 10px;
   }
