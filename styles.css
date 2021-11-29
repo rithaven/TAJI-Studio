@@ -109,8 +109,9 @@ body {
 }
 @media screen and (max-width: 800px) {
   #col1 {
-    font-size: 7px;
+    font-size: 3px;
   }
+}
 #sec2 #col2{
   background-color: rgb(130, 0, 113);
   text-align: center;
