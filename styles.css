@@ -107,7 +107,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 500px) {
   #col1 {
     font-size: 10px;
   }
