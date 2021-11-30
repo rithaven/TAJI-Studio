@@ -66,7 +66,7 @@ body {
 }
 
 @keyframes example {
-  10%   {color:rgba(255, 115, 0, 0.233); left:0px; top:0px;}
+  10%   {color:#faf9f9f3; left:0px; top:0px;}
   90%  {color:yellow; left:200px; top:0px;}
 
 }
