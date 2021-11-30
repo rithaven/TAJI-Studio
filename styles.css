@@ -51,6 +51,8 @@ body {
   background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
   color: #fff;
   height: 87vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 #animate {
        
