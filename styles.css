@@ -67,7 +67,7 @@ body {
 
 @keyframes example {
   10%   {color:#faf9f9f3; left:0px; top:0px;}
-  90%  {color:yellow; left:200px; top:0px;}
+  90%  {color:#faf9f9f3; left:200px; top:0px;}
 
 }
 .youtube {
@@ -82,6 +82,7 @@ body {
   margin-left: 20%;
   filter: brightness(100%);
   cursor: pointer;
+ 
 }
 .row {
   display: flex;
@@ -146,9 +147,9 @@ body {
 }
 
 #button {
-  background-color: hsl(41, 100%, 52%); /* Green */
+  background-color: rgb(248, 248, 247); /* Green */
   border: none;
-  color: white;
+  color: rgb(8, 8, 8);
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -352,7 +353,7 @@ body {
   line-height: 35px;
   border-radius: 50%;
   text-align: center;
-  background-color: #ff7200;
+  background-color: #080808;
   transition: all 0.3s;
 }
 .social-icon li:hover i {
