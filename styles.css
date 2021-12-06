@@ -17,7 +17,7 @@ body {
 .topnav a {
   float: right;
   display: block;
-  color: hsl(41, 100%, 52%);
+  color: hsl(0, 0%, 3%);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -30,7 +30,7 @@ body {
 
 .topnav a:hover {
   background-color: #f0e4e3;
-  color: rgb(228, 117, 53);
+  color: rgb(128, 122, 115);
 }
 
 .topnav .icon {
@@ -172,7 +172,6 @@ body {
 	z-index: 9999;
 	background: url(images/loader-128x/Preloader_1.gif), center no-repeat rgb(12, 7, 7);
 }
-
 @keyframes animatedBackground {
   from {
     background-position: 50 50;
